@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { store } from "./store.js";
 
-function DisplayDigit(props){
+function DisplayDigit(){
    const globalState = useContext(store);
   const { state } = globalState;
   const { digit } = state;
